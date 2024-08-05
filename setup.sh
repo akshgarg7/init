@@ -8,10 +8,10 @@ sudo apt-get install net-tools
 export PUBLIC_IP=$(curl -s ifconfig.me)
 
 # Conda
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh -b
-/root/miniconda3/bin/conda init
-source ~/.bashrc
+sudo curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+sudo bash Miniconda3-latest-Linux-x86_64.sh -b
+sudo /root/miniconda3/bin/conda init
+sudo source ~/.bashrc
 
 # Setup Github
 ssh-keygen
