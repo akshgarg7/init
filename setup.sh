@@ -10,6 +10,7 @@ export PUBLIC_IP=$(curl -s ifconfig.me)
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash Miniconda3-latest-Linux-x86_64.sh -b
 /root/miniconda3/bin/conda init
+source ~/.bashrc
 
 # Setup Github
 ssh-keygen
