@@ -1,4 +1,5 @@
 # Some basic shell setup
+cd ~
 apt update
 apt install sudo
 sudo apt install -y iputils-ping
